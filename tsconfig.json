@@ -1,0 +1,10 @@
+{
+  "include": ["src/**/*"],      //Ou se trouve le code qui doit etre compilé
+  "compilerOptions": {
+    "outDir": "dist",     //Ou doit etre créer les file javascript
+    "target": "ES3",
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "CommonJS"
+  }
+}
